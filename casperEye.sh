@@ -89,7 +89,7 @@ then
 #Correct Syntax
 	logo
 	echo -e """${BOLD}${GREEN} 
-	[Right Syntax is: ${PURPLE} bash ghost-eye.sh target-Website${GREEN}]
+	[Right Syntax is: ${PURPLE} ./casperEye.sh target-Website${GREEN}]
 	${RESET}"""
 	echo -e "${YELLOW}
 	For More Help use [--help] or  [-h]
