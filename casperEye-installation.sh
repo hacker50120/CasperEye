@@ -349,7 +349,7 @@ if [ ! -d "$TOOLS_DIR/dirsearch" ]; then
 else
     echo -e "${BOLD}${GREEN}[+] Installing dirsearch...${YELLOW}[ALREADY INSTALLED]${RESET}"
 fi
-
+}
 
 Symbolic_link(){
 declare -a link=("amass" ,"subfinder" ,"gobuster" ,"waybackurls" ,"httprobe" ,"anti-burl" ,"burl" ,"assetfinder" ,"aquatone")
