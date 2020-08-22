@@ -55,9 +55,28 @@ Advanced Recon Tool
 
 # Installation & Requirements
 - Download and install the script from https://github.com/hacker50120/CasperEye
-	``` ./casperEye-installation.sh ```
-	Go version 1.10 or later.
-	
+
+### ``` ./casperEye-installation.sh ```
+Go version 1.10 or later.
+
+# Setup Telegram Alert Notifier
+Steps: 
+1. Search BotFatherin telegram App
+2. Start Your Bot with ``` /start```
+3. Select ```/newbot```
+4. Enter the Name for Your Bot
+5. Genrate Your Telegram Bot Token ``` /token ```
+6. Then Enter Your Bot_API And ChatID in ```set-api-keys.sh```
+``` Bot_api="$$" ```
+``` chatID="$$" ```
+
+### How to Get ChatId:
+Add That Bot in the Gropu With You.
+then Send "Hi" in the Group
+After Than Go to terminal and 
+```curl https://api.telegram.org/$$YOUR_API_TOKEN/getUpdates ```
+You will Get ChatID of your Telegram Account.
+
 ## System Requirements
 	Recommended to run on vps with 1VCPU and 2GB ram.
 
