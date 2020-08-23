@@ -60,7 +60,7 @@ To Enable Nmap use:
  **Go v.1.10 or above required**
 
 # Setting up Telegram Alert Notifier 
-**Steps: **
+	## Steps:
 	1. Search BotFatherin telegram App
 	2. Start your Bot with ``` /start```
 	3. Select ```/newbot```
