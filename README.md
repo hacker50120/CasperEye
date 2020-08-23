@@ -82,6 +82,7 @@ To Enable Nmap use:
 
 # Authors and Thanks
  - https://github.com/tomnomnom
+ - https://github.com/nahamsec
  - https://github.com/projectdiscovery/subfinder
  - https://github.com/michenriksen/aquatone
  - https://github.com/aboul3la/Sublist3r
