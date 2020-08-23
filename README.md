@@ -39,7 +39,7 @@ To Enable Nmap use:
 	10. Subbrute
 	11. Dig Linux tool [ For Ip Digging ]
 	12. Rustscan [ Scan All Open Ports ]
-	13 .Nmap [ Scan All Runing Services on Port ]
+	13. Nmap [ Scan All Runing Services on Port ]
 	14. Httprobe [ Provide all Live Url's]
  
 - WayBack URL Machine 
