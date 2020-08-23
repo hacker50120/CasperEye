@@ -367,7 +367,7 @@ declare -a link=("amass" ,"subfinder" ,"gobuster" ,"waybackurls" ,"httprobe" ,"a
 
 	#Create run.sh bash script for Sublist3r
 	echo """#!/bin/bash
-	 python3 $HOME/CasperEye/tools/Sublist3r/sublist3r.py -d $1
+	 python3 $HOME/CasperEye/tools/Sublist3r/sublist3r.py -d $1 -r $HOME/CasperEye/tools/subbrute/resolvers.txt
 	 $1 """ > $HOME/CasperEye/tools/Sublist3r/sublist3r.sh
 	 chmod +x $HOME/CasperEye/tools/Sublist3r/sublist3r.sh
 	 sudo ln -s $HOME/CasperEye/tools/Sublist3r/./sublist3r.sh /usr/bin/sublist3r
