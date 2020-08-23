@@ -14,7 +14,7 @@ Advance Recon Tool
 
 # Usage
 
-## **``` ./casperEye.sh target-Website OR casperEye.sh target-Website ```**
+### **``` ./casperEye.sh target-Website OR casperEye.sh target-Website ```**
  
 To Enable Nmap use: 
  casperEye.sh target-Website -nmap
@@ -55,8 +55,7 @@ To Enable Nmap use:
 
 # Installation & Requirements
 - Download the script from  **https://github.com/hacker50120/CasperEye**
-
-## **Open terminal in relevant directory (where script is downloaded) -> write ```./casperEye-installation.sh``` and hit Enter
+**Open terminal in relevant directory (where script is downloaded) -> write ```./casperEye-installation.sh``` and hit Enter**
 
  **Go v.1.10 or above required**
 
