@@ -2,19 +2,19 @@
 Advance Recon Tool 
 ---
 					                         version: 1.0  	          
-  ▄▄                          	  ▗▄▄▄▖          
- █▀▀▌                         	  ▐▛▀▀▘          
-▐▛    ▟██▖▗▟██▖▐▙█▙  ▟█▙  █▟█▌▐▌   ▝█ █▌ ▟█▙ 
-▐▌    ▘▄▟▌▐▙▄▖▘▐▛ ▜▌▐▙▄▟▌ █▘  ▐███  █▖█ ▐▙▄▟▌
-▐▙   ▗█▀▜▌ ▀▀█▖▐▌ ▐▌▐▛▀▀▘ █   ▐▌    ▐█▛ ▐▛▀▀▘
- █▄▄▌▐▙▄█▌▐▄▄▟▌▐█▄█▘▝█▄▄▌ █   ▐▙▄▄▖  █▌ ▝█▄▄▌
-  ▀▀  ▀▀▝▘ ▀▀▀ ▐▌▀▘  ▝▀▀  ▀   ▝▀▀▀▘  █   ▝▀▀ 
-	       ▐▌                     █▌ 
+	  ▄▄                          	  ▗▄▄▄▖          
+	 █▀▀▌                         	  ▐▛▀▀▘          
+	▐▛    ▟██▖▗▟██▖▐▙█▙  ▟█▙  █▟█▌▐▌   ▝█ █▌ ▟█▙ 
+	▐▌    ▘▄▟▌▐▙▄▖▘▐▛ ▜▌▐▙▄▟▌ █▘  ▐███  █▖█ ▐▙▄▟▌
+	▐▙   ▗█▀▜▌ ▀▀█▖▐▌ ▐▌▐▛▀▀▘ █   ▐▌    ▐█▛ ▐▛▀▀▘
+	 █▄▄▌▐▙▄█▌▐▄▄▟▌▐█▄█▘▝█▄▄▌ █   ▐▙▄▄▖  █▌ ▝█▄▄▌
+	  ▀▀  ▀▀▝▘ ▀▀▀ ▐▌▀▘  ▝▀▀  ▀   ▝▀▀▀▘  █   ▝▀▀ 
+		       ▐▌                     █▌ 
 ***
 
 # Usage
 
-``` ./casperEye.sh target-Website OR casperEye.sh target-Website ```
+## **``` ./casperEye.sh target-Website OR casperEye.sh target-Website ```**
  
 To Enable Nmap use: 
  casperEye.sh target-Website -nmap
@@ -45,37 +45,38 @@ To Enable Nmap use:
 - WayBack URL Machine 
 - SSRF Juicy Link Finder 
 - Creating target specific wordlist
-- Generating Seprate HTTP Response Code
+- Generating seprate HTTP Response Code
 - Supports ProtonVPN 
 - **Sending Telegram Alert with Complete Final Recon File**
-- Fetch All Target Ips
-- You can Enable Nmap with Rustscan ,will Give You all open Port with All Running Services On target Ip
-- Easy To use [ Only Enter target Domian and then it will Alert you with Recon File ]
+- **Fetch All Target IPs**
+- User can enable **Nmap with Rustcan**, which will return all the open ports on the target along with all active/running services
+- **Ease of use. Just enter the target domain and Sit back & relax.**
 
 
 # Installation & Requirements
-- Download and install the script from https://github.com/hacker50120/CasperEye
+- Download the script from  **https://github.com/hacker50120/CasperEye**
 
-### ``` ./casperEye-installation.sh ```
-Go version 1.10 or later.
+## **Open terminal in relevant directory (where script is downloaded) -> write ```./casperEye-installation.sh``` and hit Enter
 
-# Setup Telegram Alert Notifier
-Steps: 
-1. Search BotFatherin telegram App
-2. Start Your Bot with ``` /start```
-3. Select ```/newbot```
-4. Enter the Name for Your Bot
-5. Genrate Your Telegram Bot Token ``` /token ```
-6. Then Enter Your Bot_API And ChatID in ```set-api-keys.sh```
-``` Bot_api="$$" ```
-``` chatID="$$" ```
+ **Go v.1.10 or above required**
 
-### How to Get ChatId:
-Add That Bot in the Gropu With You.
-then Send "Hi" in the Group
-After Than Go to terminal and 
-```curl https://api.telegram.org/$$YOUR_API_TOKEN/getUpdates ```
-You will Get ChatID of your Telegram Account.
+# Setting up Telegram Alert Notifier 
+**Steps: **
+	1. Search BotFatherin telegram App
+	2. Start your Bot with ``` /start```
+	3. Select ```/newbot```
+	4. Enter name for your bot  
+	5. Generate your telegram bot token 	``` /token ```
+	6. Then enter your Bot_API and chatID in	 ```set-api-keys.sh```
+	``` Bot_api="$$" ```
+	``` chatID="$$" ```
+
+### How to Getting ChatId:
+	Add that Bot in group with you.
+	Than send "Hi" in the group
+	After Than go to terminal and type
+	```curl https://api.telegram.org/$$YOUR_API_TOKEN/getUpdates ```
+	You will Get ChatID of your Telegram Account.
 
 ## System Requirements
 	Recommended to run on vps with 1VCPU and 2GB ram.
@@ -91,7 +92,7 @@ You will Get ChatID of your Telegram Account.
  - https://protonvpn.com/
  
 # TO DO
-Some New Feature will add soon.
+New features in the queue 😇
 
 ## Warning: 
 This code was originally created for personal use, it generates a substantial amount of traffic, please use with caution.
