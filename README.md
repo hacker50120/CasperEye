@@ -1,37 +1,37 @@
 # CasperEye 
-Advanced Recon Tool 
+Advance Recon Tool 
 ---
 					                         version: 1.0  	          
-		  ▄▄                          	  ▗▄▄▄▖          
-		 █▀▀▌                         	  ▐▛▀▀▘          
-		▐▛    ▟██▖▗▟██▖▐▙█▙  ▟█▙  █▟█▌▐▌   ▝█ █▌ ▟█▙ 
-		▐▌    ▘▄▟▌▐▙▄▖▘▐▛ ▜▌▐▙▄▟▌ █▘  ▐███  █▖█ ▐▙▄▟▌
-		▐▙   ▗█▀▜▌ ▀▀█▖▐▌ ▐▌▐▛▀▀▘ █   ▐▌    ▐█▛ ▐▛▀▀▘
-		 █▄▄▌▐▙▄█▌▐▄▄▟▌▐█▄█▘▝█▄▄▌ █   ▐▙▄▄▖  █▌ ▝█▄▄▌
-		  ▀▀  ▀▀▝▘ ▀▀▀ ▐▌▀▘  ▝▀▀  ▀   ▝▀▀▀▘  █   ▝▀▀ 
-			       ▐▌                     █▌ 
+  ▄▄                          	  ▗▄▄▄▖          
+ █▀▀▌                         	  ▐▛▀▀▘          
+▐▛    ▟██▖▗▟██▖▐▙█▙  ▟█▙  █▟█▌▐▌   ▝█ █▌ ▟█▙ 
+▐▌    ▘▄▟▌▐▙▄▖▘▐▛ ▜▌▐▙▄▟▌ █▘  ▐███  █▖█ ▐▙▄▟▌
+▐▙   ▗█▀▜▌ ▀▀█▖▐▌ ▐▌▐▛▀▀▘ █   ▐▌    ▐█▛ ▐▛▀▀▘
+ █▄▄▌▐▙▄█▌▐▄▄▟▌▐█▄█▘▝█▄▄▌ █   ▐▙▄▄▖  █▌ ▝█▄▄▌
+  ▀▀  ▀▀▝▘ ▀▀▀ ▐▌▀▘  ▝▀▀  ▀   ▝▀▀▀▘  █   ▝▀▀ 
+	       ▐▌                     █▌ 
 ***
 
 # Usage
 
 ``` ./casperEye.sh target-Website OR casperEye.sh target-Website ```
  
- For Enable Nmap use: 
+To Enable Nmap use: 
  casperEye.sh target-Website -nmap
  
 
  # About
- CasperEye is a script written in Bash, it is intended to automate some tedious tasks of reconnaissance and information gathering. This tool allows you to gather some information about target should help you identify Subdomain's with huge Juicy Information.
+ CasperEye is a script written in Bash, it is intended to automate some tedious tasks of reconnaissance and information gathering. This tool allows you to gather as much as information about the target and helps uncovering huge numbers of subdomains and other juicy information.
 
 
  # Main Features
- - Create a dated folder with recon notes
+ - Create a dated folder with scan results
  - Grab subdomains using:
 	1. certdata-api
 	2. crt.sh API
 	3. certspotter API
 	4. assetfinder
-	5 .Subfinder 
+	5. Subfinder 
 	6. Aquatone
 	7. Sublist3r
 	8. Knockpy
@@ -44,10 +44,10 @@ Advanced Recon Tool
  
 - WayBack URL Machine 
 - SSRF Juicy Link Finder 
-- Creating Target Wordlist
-- Genrating Seprate HTTP Response Code
-- Supporting ProtonVPN 
-- Sending Telegram Alert with Complete Final Recon File
+- Creating target specific wordlist
+- Generating Seprate HTTP Response Code
+- Supports ProtonVPN 
+- **Sending Telegram Alert with Complete Final Recon File**
 - Fetch All Target Ips
 - You can Enable Nmap with Rustscan ,will Give You all open Port with All Running Services On target Ip
 - Easy To use [ Only Enter target Domian and then it will Alert you with Recon File ]
