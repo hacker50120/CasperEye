@@ -19,10 +19,13 @@ Advance Recon Tool
 To Enable Nmap use: 
  casperEye.sh target-Website -nmap
  
+# Demonstration of CasperEye Advance recon tool
+
+**https://www.youtube.com/watch?v=yGKnhkrmtx8&feature=youtu.be**
+
 
  # About
- CasperEye is a script written in Bash, it is intended to automate some tedious tasks of reconnaissance and information gathering. This tool allows you to gather as much as information about the target and helps uncovering huge numbers of subdomains and other juicy information.
-
+ CasperEye is a script written in Bash, it is intended to automate some tedious tasks of reconnaissance and information gathering. This tool allows you to gather as much information about the target and helps to uncover huge numbers of subdomains and other juicy information.
 
  # Main Features
  - Create a dated folder with scan results
@@ -39,13 +42,13 @@ To Enable Nmap use:
 	10. Subbrute
 	11. Dig Linux tool [ For Ip Digging ]
 	12. Rustscan [ Scan All Open Ports ]
-	13. Nmap [ Scan All Runing Services on Port ]
+	13. Nmap [ Scan All Running Services on Port ]
 	14. Httprobe [ Provide all Live Url's]
  
-- WayBack URL Machine 
+- Wayback URL Machine 
 - SSRF Juicy Link Finder 
 - Creating target specific wordlist
-- Generating seprate HTTP Response Code
+- Generating separate HTTP Response Code
 - Supports ProtonVPN 
 - **Sending Telegram Alert with Complete Final Recon File**
 - **Fetch All Target IPs**
@@ -71,14 +74,14 @@ To Enable Nmap use:
 	``` chatID="$$" ```
 
 ### How to Getting ChatId:
-	Add that Bot in group with you.
-	Than send "Hi" in the group
+	Add that Bot in a group with you.
+	Then send "Hi" in the group
 	After Than go to terminal and type
 	```curl https://api.telegram.org/$$YOUR_API_TOKEN/getUpdates ```
 	You will Get ChatID of your Telegram Account.
 
 ## System Requirements
-	Recommended to run on vps with 1VCPU and 2GB ram.
+	Recommended running on VPS with 1VCPU and 2GB ram.
 
 # Authors and Thanks
  - https://github.com/tomnomnom
